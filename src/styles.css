@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  min-height: 100vh;
+  background: #44a851;
+  color: rgb(225, 250, 228);
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: #dc5b39;
+  margin: 0 auto;
+  transition: 0.3s cubic-bezier(0.56, 0.2, 0.46, 1.27) all;
+  position: absolute;
+}
+
+button {
+  margin-top: 40px;
+  padding: 10px 20px;
+  background: #049ad7;
+  color: rgb(225, 244, 252);
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  z-index: 999;
+}
+
+button:last-child {
+  margin-right: 0px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-top: 40px;
+  z-index: 1000;
+}
